@@ -19,8 +19,8 @@ import com.example.restservice.repository.ProductRepository;
 class ScraperThread extends Thread {
     private Product product;
 
-    public static final String ACCOUNT_SID = "AC19be372d70443d498baa886898971cbf";
-    public static final String AUTH_TOKEN = "a1b2591fcd436a990ad67874f3df24aa";
+    public static final String ACCOUNT_SID = "<Account_Id>";
+    public static final String AUTH_TOKEN = "<Auth_Token>";
 
     public ProductRepository productRepository;
 
