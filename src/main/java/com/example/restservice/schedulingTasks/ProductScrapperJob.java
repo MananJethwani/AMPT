@@ -46,8 +46,6 @@ class ScraperThread extends Thread {
                 e.printStackTrace();
             }
 
-            currentPrice = 1200;
-
             
             if (product.prices.size() == 365) {
                 product.prices.remove(0);
